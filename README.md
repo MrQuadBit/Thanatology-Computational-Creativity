@@ -19,6 +19,27 @@ Dr. Rafael Pérez y Pérez
 Ayala De La Rosa José Daniel
 2173071015
 
+Indice:
+1.-Introducción
+-Generación de narrativas usando plantillas
+-Algoritmo "Through The Park"
+-Temática del proyecto
+-Importancia
+-Obtención de los datos
+-Base de Datos
+-Datos del Usuario
+-Aplicaciones (comerciales y cientificas)
+
+2.-Casos que contempla este programa
+3.-Uso de listas
+4.-Uso de reglas y cálculos
+5.-Formularuios empleados
+6.-Pruebas del sistema
+7.-Resultados y Conclusiones
+
+Apéndice 1.-Diagrama de bloques
+Apéndice 2.-Código fuente
+
 1.-Introducción
 La generación de narrativas usando plantillas es una de las multiples implementaciones de la creatividad computacional, siendo esta una de las más conocidas y comerciales, el objetivo principal de esta forma es crear textos diferentes unos de otros, que parezcan creados por un humano y que se puedan conciderae como "Creativos" o "Nuevos" o "Inovadores" usando la Formula:
 D + F + C + R = texto "nuevo"
@@ -55,8 +76,15 @@ La persona conforme sale de la etapa anterior empieza tener sentimientos de "pen
 La aceptación:
 Es la llegada de un estado de calma y compresión de que la muerte y otras perdidad son fenómenos inherentes a la vidad humana y sus acciones.
 
-En tiempos tan dificiles emocionalemnte hablando como los que nos tocó vivir gracias al SARS-COV2, creo que es importante poder hacerle sentir a una persona 
+En tiempos tan dificiles como el que nos tocó vivir gracias al SARS-COV2 y las cantidades tan grandes de defunsiones por día, creo que es importante poder hacerle sentir a una persona a la cual estimamos nuestro apoyo por medio de un mensaje, el problema es que casi nunca sabemos que decir y es normal, son temas que no nos enseñanor a llevar, pero gracias la creativdad computacional este puede ser un problema facilmente resuelto y creo este proyecto puede ser la primer piedrita para construir soluciones más complejas y completas.
 
+Para que el sistema pueda generar una narrativa necesita 2 tipos de Datos:
+1)Son los Datos con los que se llenan la plantilla, estos vienen de una "Base de datos" que en realidad son archivos txt que contienen textos clasificados en 3 variantes (Negación, Ira y Negociación) de las palabras más populares dichas por las personas (actualmente extraidos y clasificados manualmente pero que podría obtenerse autamticamente con un modelo de machine learning clasificador de textos)
+2)Son los Datos a los que se le aplican las reglas, estos se obtiene del usuario, el o ella los ingresa en la terminal (se podrían extraer de un archivo json, o incluirse como parametros al momento de la ejecución del sistema, cosa que en esta versión aún no se implementa).
+
+La cantidad de textos que puede generar el sistemas va en función a la cantidad de líneas por archivo, conforme más grande sea la "Base de Datos" más diversos pueden ser las narrativas generadas (esto igual podría ser escalable creando 3 diferentes sistemas o uno más complejo, donde dependiendo la etapa y la emoción se creara un texto alimentador de la "Base de Datos")
+
+Las aplicaciones que le veo comercialmente a este proyecto sería sólo en la generación automática de textos para verder tarjetas de cumpleaños, bodas, saludos de correos o cartas (todos ellos basandonos en el rpincipio de plantillas y el algoritmo "through the park" que se explica más adelante), en el aspecto cientifico creo podría ayudar a la misma rama de la psicología para poder ayudar a personas a sobre llevar la soledad, la depresión, las perdidas por medio de mensajes sonstantes y automáticos (respuesta sin fundamentos sólo basada en mis creencias), sin embargo podría tener un mayor alcance si se juntaran ambas ramas (psicología y computación) para hacer un sistema más complejo y que dejara de lado las creencias y se basara en hechos.
 
 2.-Casos que contempla este programa
 3.-Uso de listas
