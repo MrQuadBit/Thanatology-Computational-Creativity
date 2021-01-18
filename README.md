@@ -20,11 +20,43 @@ Ayala De La Rosa José Daniel
 2173071015
 
 1.-Introducción
-La generación de narrativas usando plantilla es una de las multiples implementaciones de la creatividad computacional, esta forma de generación de narrativas es una de las más conocidas y más comerciales, el objetivo principal es crear textos que parezcan creados por un humano y que estos sean diferentes unos de otros por medio de formulario, estos formularios se llenan con información recopilada previamente analizando los datos de entrada y ajustando los campos faltantes dependiendo el analizis resultante
+La generación de narrativas usando plantillas es una de las multiples implementaciones de la creatividad computacional, siendo esta una de las más conocidas y comerciales, el objetivo principal de esta forma es crear textos diferentes unos de otros, que parezcan creados por un humano y que se puedan conciderae como "Creativos" o "Nuevos" o "Inovadores" usando la Formula:
+D + F + C + R = texto "nuevo"
+donde:
 
-El objetivo de este proyecto es generar narrativas que ayudn a las personas que no saben que decir cuando cuando un ser querido afronta una perdida
+D = Datos:
+Se refiere a al información de entrada, es la que se analizará para crear diferentes narrativas en base a su propia naturaleza o identidad (diferencia entre otros Datos)
 
-La tanatología es una rama de la psicología que trata de ayudar a las personas con sus perdidas 
+F = Formulario o Platilla
+La plantilla como sabemos es un esquema base del cual se parte para crear nuevas cosas, en este caso es lo mismo: es una estructura básica de la cual se parte para crear las diferentes narrativas
+
+C = Cálculos
+Como su nombre se indica es la parte donde se hacen operaciones (regularmente aritmeticas) para obtener información no explicita en base a los Datos
+
+R = Reglas
+Son las normas que se estabablecen para saber como actuar cuando se tiene un caso concreto, como por ejemplo modificar un saludo dependiendo si la persona a la que nos referimos es hombre o mujer:
+si es hombre "Hola amigo" de lo contrario "Hola amiga"
+
+El objetivo de este proyecto es generar narrativas que ayuden a las personas que no saben que decir cuando un ser querido afronta una perdida en base a las tres primeras etapas del duelo descritas por la tanatología (Negación, Ira y Negociación) y que suenen o que la persona que la quiere envíar sienta empatía o mínimo se sienta agusto con ella (la narrativa generada)
+
+La tanatología es una rama de la psicología que trata de ayudar a las personas con sus perdidas, en ella se describe el duelo la cual es una etapa por la cual todos pasamos despúes de sufrir la perdida de cualquier objeto al cual le teníamos apego, esta fase se divide en 5 etapas (o más, eso dependerá el autor):
+La negación:
+Es regularmente la reacción inmediata después de una perdida, se tiene la sensación de irrealidad con la situación.
+
+La ira:
+Tras la negación regularmente lo que presigue son sentimientos de frustración e impotencia.
+
+La negociación:
+Es el primer paso cuando tenemos contacto con la realidad de laperdida, afrontamos que eso que perdimos ya no volverá pero empezamo a exlplorar que cosas se pudieron haber hecho para revertir la situación:
+
+La depresión:
+La persona conforme sale de la etapa anterior empieza tener sentimientos de "pena", "tristeza", "nostalgia" y "ausencia", lo cual lleva a el aislamiento social y perdida del interés cotidiano, esta etapa no es clinicamente una depresión, es más el camino para empezar a seguir viviendo a pesar de la perdida, sin embargo se le llama así por la gran similitud con una depresión patologica (sin embargo si no se trata a tiempo y en forma sí puede desembocar en una)
+
+La aceptación:
+Es la llegada de un estado de calma y compresión de que la muerte y otras perdidad son fenómenos inherentes a la vidad humana y sus acciones.
+
+En tiempos tan dificiles emocionalemnte hablando como los que nos tocó vivir gracias al SARS-COV2, creo que es importante poder hacerle sentir a una persona 
+
 
 2.-Casos que contempla este programa
 3.-Uso de listas
