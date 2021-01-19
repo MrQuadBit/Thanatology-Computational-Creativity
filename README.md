@@ -229,19 +229,4 @@ support_messages.txt
 Contiene mensajes de apoyo y se usa como "Lista" para asignación de la variable [APOYO]
 
 main.py
-Es el archivo principal que se ejecuta para obtener una narrativa usando todos los archivos anteriores y que contiene las reglas y cálculos para su generación:
-
-
-def main():
-	thanatology_message = ""
-	thanatology_message += makeGreeting(input_data)
-	thanatology_message += ", " + getRandomLineFromFile(FILE_STARTING)
-
-	result = throughThePark([FILE_DENIAL, FILE_ANGER, FILE_BARGAINING])
-	thanatology_message += ", " + result[0] + ", " + result[1]
-
-	thanatology_message += ", " + getRandomLineFromFile(FILE_SUPPORT)
-	thanatology_message += ", " + getRandomLineFromFile(FILE_FAREWELLS) + "."
-
-	print(thanatology_message)
-
+Es el archivo principal que se ejecuta para obtener una narrativa usando todos los archivos anteriores y que contiene las reglas y cálculos para su generación.
