@@ -26,8 +26,6 @@ Indice:
 -Temática del proyecto
 -Importancia
 -Obtención de los datos
--Base de Datos
--Datos del Usuario
 -Aplicaciones (comerciales y cientificas)
 
 2.-Casos que contempla este programa
@@ -58,9 +56,15 @@ R = Reglas
 Son las normas que se estabablecen para saber como actuar cuando se tiene un caso concreto, como por ejemplo modificar un saludo dependiendo si la persona a la que nos referimos es hombre o mujer:
 si es hombre "Hola amigo" de lo contrario "Hola amiga"
 
+Algoritmo Through The Park:
+Este algortimo descrito por Montfort en el 2008, trata de explicar la importancia de la "Elipsis" en la generación de narrativas y aún más en la generación de narrativas por medio de plantillas en la creativdad computacional.
+
+Este algoritmo lo que dice es: de una lista de opciones (frases, oraciones o palabras) que van una detrás de otra de forma secuencial, si se omite una o varias de ellas no debe de interferir en el entendiemento general de la suma de todas las opciones y además debe o puede generar dinamismo y repitiendo este proceso varias veces sobre la misma lista, genra resultados diferentes en el entendimiento de la suma.
+
 El objetivo de este proyecto es generar narrativas que ayuden a las personas que no saben que decir cuando un ser querido afronta una perdida en base a las tres primeras etapas del duelo descritas por la tanatología (Negación, Ira y Negociación) y que suenen o que la persona que la quiere envíar sienta empatía o mínimo se sienta agusto con ella (la narrativa generada)
 
-La tanatología es una rama de la psicología que trata de ayudar a las personas con sus perdidas, en ella se describe el duelo la cual es una etapa por la cual todos pasamos despúes de sufrir la perdida de cualquier objeto al cual le teníamos apego, esta fase se divide en 5 etapas (o más, eso dependerá el autor):
+La tanatología es una rama de la psicología que trata de ayudar a las personas con sus perdidas, en ella se describe el duelo la cual es una etapa por la que todos pasamos despúes de sufrir la perdida de cualquier objeto al cual le teníamos apego, esta fase se divide en 5 etapas (o más, eso dependerá el autor):
+
 La negación:
 Es regularmente la reacción inmediata después de una perdida, se tiene la sensación de irrealidad con la situación.
 
@@ -84,9 +88,10 @@ Para que el sistema pueda generar una narrativa necesita 2 tipos de Datos:
 
 La cantidad de textos que puede generar el sistemas va en función a la cantidad de líneas por archivo, conforme más grande sea la "Base de Datos" más diversos pueden ser las narrativas generadas (esto igual podría ser escalable creando 3 diferentes sistemas o uno más complejo, donde dependiendo la etapa y la emoción se creara un texto alimentador de la "Base de Datos")
 
-Las aplicaciones que le veo comercialmente a este proyecto sería sólo en la generación automática de textos para verder tarjetas de cumpleaños, bodas, saludos de correos o cartas (todos ellos basandonos en el rpincipio de plantillas y el algoritmo "through the park" que se explica más adelante), en el aspecto cientifico creo podría ayudar a la misma rama de la psicología para poder ayudar a personas a sobre llevar la soledad, la depresión, las perdidas por medio de mensajes sonstantes y automáticos (respuesta sin fundamentos sólo basada en mis creencias), sin embargo podría tener un mayor alcance si se juntaran ambas ramas (psicología y computación) para hacer un sistema más complejo y que dejara de lado las creencias y se basara en hechos.
+Las aplicaciones que le veo comercialmente a este proyecto sería sólo en la generación automática de textos para verder tarjetas de cumpleaños, bodas, saludos de correos o cartas (todos ellos basandonos en el rpincipio de plantillas y el algoritmo "through the park"), en el aspecto cientifico creo podría ayudar a la misma rama de la psicología para poder ayudar a personas a sobre llevar la soledad, la depresión, las perdidas por medio de mensajes sonstantes y automáticos (respuesta sin fundamentos sólo basada en mis creencias), sin embargo podría tener un mayor alcance si se juntaran ambas ramas (psicología y computación) para hacer un sistema más complejo y que dejara de lado las creencias y se basara en hechos.
 
 2.-Casos que contempla este programa
+Los casos que contempla este sistema (de momento en esta versión) son 2
 3.-Uso de listas
 4.-Uso de reglas y cálculos
 5.-Formularuios empleados
